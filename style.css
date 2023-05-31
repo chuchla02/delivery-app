@@ -1,0 +1,183 @@
+* {
+    margin:10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+.headMenu{
+display: flex;
+}
+
+.rightMenu{
+    display: flex;
+}
+
+.admin, .drivers, .users, .deliveries {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    font-weight: 700;
+    padding: 12px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 16px;
+    background-color: #EEEEEE;
+    width: 164px;
+    height: 52px;
+}
+
+.drivers img {
+    width: 36px;
+}
+
+.driversGrid{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+.Train, .Car, .Bicycle, .Runner {
+    width: 172px;
+    height: 12px;
+    padding: 8px;
+    background-color: #EEEEEE;
+    border: 1px solid black;
+    border-radius: 7px;
+    font-weight: 700;
+    margin-top: -4px;
+    font-size: 16px;
+}
+
+.Train{
+    margin-top: 2px;
+}
+
+.users:hover{
+    background-color: #9FC5E8;
+    transition: background-color 0.333s;
+    cursor: pointer;
+}
+
+.users:not(:hover){
+    transition: background-color 0.333s;
+}
+
+a {
+    text-decoration: none;
+    margin-top: 0px;
+    color:black;
+}
+
+.click{
+    width: 75%;
+    text-align: center;
+}
+
+td{
+    text-align: center;
+    border: 2px solid gray;
+    padding: 20px;
+}
+
+table{
+    margin: 0px;
+    width: 1120px;
+}
+
+.numberOfUsers{
+    font-weight: 700;
+    padding: 12px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: #EEEEEE;
+    width: 180px;
+}
+
+.pages{
+    display: flex;
+    margin-top: -20px;
+}
+.pages div{
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: #EEEEEE;
+    padding: 6px;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    font-weight: 700;
+
+}
+
+#first {
+    background-color: #9FC5E8;
+}
+
+.container{
+    width: 1120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.usersGrid{
+    display: grid;
+}
+
+.search{
+    display: flex;
+    align-items: end;
+    text-align: center;
+}
+
+.file{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: #EEEEEE;
+    padding: 6px;
+    width: 120px;
+    height: 32px;
+    font-weight: 700;
+}
+
+.searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EEEEEE;
+    border:1px solid black;
+    border-radius: 6px;
+    width: 168px;
+    height: 45px;
+}
+input{
+    border-radius: 6px;
+    background-color: #EEEEEE;
+    padding: 6px;
+    font-weight: 700;
+    border: none;
+    width: 60px;
+}
+
+.file{
+    width: 32px;
+    height: 32px;
+    margin-right: -5px;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
